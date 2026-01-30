@@ -1,0 +1,10 @@
+{
+  "browser": "Chrome",
+  "browserVersion": "latest",
+  "os": "Windows",
+  "osVersion": "11",
+  "passed": false,
+  "error": "TimeoutException: Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff66a9ba545\n\t0x7ff66a9ba5a0\n\t0x7ff66a760fed\n\t0x7ff66a7bc6d2\n\t0x7ff66a7bc9dc\n\t0x7ff66a80d5b7\n\t0x7ff66a80a10c\n\t0x7ff66a7acedc\n\t0x7ff66a7ade23\n\t0x7ff66ac98bb0\n\t0x7ff66ac92fbd\n\t0x7ff66acb420a\n\t0x7ff66a9d6e15\n\t0x7ff66a9df4dc\n\t0x7ff66a9c3e54\n\t0x7ff66a9c4006\n\t0x7ff66a9a9e27\n\t0x7ff8b4ffe8d7\n\t0x7ff8b5c08d9c\n",
+  "artifacts_dir": "/Users/adilforest/Downloads/SQAT_AITU/assignment6_sqat/artifacts/20260130_225349/Windows_11_Chrome",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/adilforest/Downloads/SQAT_AITU/assignment6_sqat/run_assignment6.py\", line 403, in run_on_browserstack\n    test_log = booking_search_test(driver, data, run_dir)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/adilforest/Downloads/SQAT_AITU/assignment6_sqat/run_assignment6.py\", line 251, in booking_search_test\n    wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, f\"[data-date='{checkin_str}']\"))).click()\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/adilforest/Downloads/SQAT_AITU/assignment6_sqat/.venv/lib/python3.11/site-packages/selenium/webdriver/support/wait.py\", line 105, in until\n    raise TimeoutException(message, screen, stacktrace)\nselenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff66a9ba545\n\t0x7ff66a9ba5a0\n\t0x7ff66a760fed\n\t0x7ff66a7bc6d2\n\t0x7ff66a7bc9dc\n\t0x7ff66a80d5b7\n\t0x7ff66a80a10c\n\t0x7ff66a7acedc\n\t0x7ff66a7ade23\n\t0x7ff66ac98bb0\n\t0x7ff66ac92fbd\n\t0x7ff66acb420a\n\t0x7ff66a9d6e15\n\t0x7ff66a9df4dc\n\t0x7ff66a9c3e54\n\t0x7ff66a9c4006\n\t0x7ff66a9a9e27\n\t0x7ff8b4ffe8d7\n\t0x7ff8b5c08d9c\n\n"
+}
